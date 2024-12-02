@@ -89,3 +89,24 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   width: 100%;
   height: auto;
 }
+.carousel-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-links li {
+  margin: 0 10px;
+}
+
+.carousel-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.carousel-links a:hover {
+  text-decoration: underline;
+}
